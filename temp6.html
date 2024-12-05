@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #{
+            margin: 0px;
+        }
+        .c{
+         background-color: orange;
+        }
+        h3{
+            background-color: orange
+           
+        }
+        #h{
+            background-color: orange;
+            padding: 5px; 
+            display: flex;
+            justify-content: space-evenly;
+        
+        }
+        .row{
+            background-color: gray;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: start;
+            height: 100%;
+        }
+        .box{
+            background-color: silver;
+            margin: 10px;
+            padding: 30px;
+            width: 300px;
+            border: 5px solid black;
+            border-radius: 50%;
+            background: linear-gradient(red,purple,green);
+            text-align: center;
+        }
+        container{
+            position: absolute;
+            scroll-behavior: smooth;
+            overflow: auto;
+            top:0px;
+            left:0px;
+            right:0px;
+            bottom:0px;
+            height:100%;
+
+        }
+        p{
+            font-size: 12px;
+            font-family: "verdan";
+            font-weight: bold;
+        }
+        .header{
+            background-image: url(/images/pic2.jpg);
+            background-size: cover;
+            justify-content: space-evenly;
+            align-items: start;
+        }
+        .caption{
+            background-color: skyblue;
+            padding: 50px;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Temp6</h1>
+    
+    <div id="h">
+    <h3 id="h">My Application</h2>
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+</div>
+<div class="row header" id="home">
+    <div class="caption">
+<h1>Full Stack Developer</h1>
+<p>MERN | MERN | Java | Python</p>
+</div>
+</div>
+        <hr>
+        <div class="row" id="projects">
+            <div class="box">
+                <h2>Project 1</h2>
+                <p>This is my Project 1</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="box">
+                <h2>Project 2</h2>
+                <p>This is my Project 2</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="box">
+                <h2>Project 3</h2>
+                <p>This is my Project 3</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+        <div>
+            <h3>@copyright 2024.All rights reserved.</h3>
+        </div>
+</body>
+</html>
